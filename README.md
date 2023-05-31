@@ -48,7 +48,7 @@ The SARIMA model was the best performing model with an MSE of 965.16. The SARIMA
 
 Deployment for this project is just generating the presentation and report. 
 
-### References
+## 7. References
 
 Dataset Citation:
 
