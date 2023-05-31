@@ -34,7 +34,9 @@ For the time-series specific models, the 10-minute, 52,000+ data points became t
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/487cdf50-95a4-47e6-963b-7228d2600e27)
 
-In the image above you can see the SARIMA model's One-step ahead forecast is incredibly close to the actual values.
+In the image above you can see the SARIMA model's One-step ahead forecast is incredibly close to the actual values. This plot is only showing November and December, with November being the true values and December being both true and forecasted values.
+
+The blue on the left of the plot shows the observed or true value of the power consumption in zone 1, the orange shows the One-Step ahead Forecasted value. And the green in there is a highlighted region between the two values. So the reason that plot in december looks so colorful is because the forecasted value is so close to the observed value that the colors almost blend together
 
 ## 5. Evaluation
 
