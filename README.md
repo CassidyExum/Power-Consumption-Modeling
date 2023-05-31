@@ -72,7 +72,7 @@ https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregr
     ├── Data
     │   └── Data.csv
     ├── .gitignore
+    ├── Notebook.pdf
     ├── Power Consumption Modeling.ipynb
     ├── Presentation.pdf
-    ├── Notebook.pdf
     └── README.md
