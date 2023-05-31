@@ -42,13 +42,13 @@ The blue on the left of the plot shows the observed or true value of the power c
 
 The SARIMA model was the best performing model with an MSE of 965.16. The SARIMA model predictions closely followed the actual values from the data. In order to obtain more valuable information from this dataset, I believe introducing population / demographic statistics for the three zones would allow us to draw more interesting conclusions. Regardless, the following conclusions are for consideration of the city officials.
 
-1. Temperature is the most correlated feature. As temperature changes, power consumption follows. This makes logical sense because of air conditioning / heating. If your goal is to reduce power consumption, consider implementing limits on AC/Heat usage during moderate days to conserve energy for more extreme days. If your goal is to understand when power consumption is at its greatest, consider safeguards and more robust facilities that can handle increased loads in more extreme weather (i.e. summer and winter).
-2. Consider further research with demographics data. There are a lot of factors that will drive power consumption, housing and population for example. If this dataset could be compared with population data in each zone, more interesting conclusions could be drawn about the consumption and power requirements in each zone. Another interesting predictor would be if the zones are residential, industrial, or commercial.
-3. SARIMA Models worked the best and the SARIMA model I trained above provided an error of only 965.16. That is quite accurate and can be used for forecasting power consumption in the future.
+1. Temperature is the most correlated feature. As temperature changes, power consumption follows. This makes logical sense because of air conditioning / heating. If your goal is to reduce power consumption, consider implementing limits on AC / heat usage during moderate days to conserve energy for more extreme days. If your goal is to understand when power consumption is at its greatest, consider safeguards and more robust facilities that can handle increased loads in more extreme weather (i.e. summer and winter).
+2. Consider further research with demographics data. There are a lot of factors that will drive power consumption, housing and population for example. If this dataset could be compared with population data or zone type (i.e. residential, industrial, or commercial), conclusions like the impact of population or zone type on power consumption could be made.
+3. SARIMA Models worked the best and the SARIMA model I trained above provided an error of only 965.16, which is within 3% of the observed value. That is quite accurate and can be used for forecasting power consumption in the future.
 
 ## 6. Deployment
 
-Deployment for this project is just generating the presentation and report. 
+Deployment for this project is generating the presentation and report. 
 
 ## 7. References
 
