@@ -2,7 +2,7 @@
 
 ## 1. Business Understanding
 
-Due to climate change, increased energy demands, and the need for renewable energy, power consumption is an important data point to research for all major cities. The city government of Tetouan, Morocco has tasked me with researching the power consumption of three different zones within the city. The use of this analysis is broad and to be determined by the city officials later. First, I hope to determine what feature supplied in the dataset, if any, is the driving factor and most correlated with the power consumption of each zone. Secondly, I'd like to report simple and understandable time-series analysis to the officials, things like if the series is stationary, what the moving average and standard deviation are, etc. Lastly, I'd to leave the officials with forecast ready models and next steps for further research and analysis. 
+Due to climate change, increased energy demands, and the need for renewable energy, power consumption is an important data point to research for all major cities. The city government of Tetouan, Morocco has tasked me with researching the power consumption of three different zones within the city. The use of this analysis is broad and to be determined by the city officials later. First, I hope to determine what feature supplied in the dataset, if any, is the driving factor and most correlated with the power consumption of each zone. Secondly, I'd like to report simple and understandable time-series analysis to the officials, things like if the series is stationary, what the moving average and standard deviation are, etc. Lastly, I'd like to leave the officials with forecast ready models and next steps for further research and analysis. 
 
 ## 2. Data Understanding
 
@@ -69,6 +69,6 @@ https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregr
     │   └── Data.csv
     ├── .gitignore
     ├── Power Consumption Modeling.ipynb
+    ├── Presentation.pdf
     ├── Notebook.pdf
-    ├── Presentation TimeSeries.pdf
     └── README.md
