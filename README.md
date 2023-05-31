@@ -6,7 +6,7 @@ Due to climate change, increased energy demands, and the need for renewable ener
 
 ## 2. Data Understanding
 
-The data was recorded by Professors out of Abdelmalek Essaadi University, in Morocco. All of the features were recorded every 10 minutes from January 1st 2017 to December 30th 2017. There are 3 potential Y values, and 6 features. There are over 52,000 data points due to the frequency of recording. For the purpose of simplicity I'll be focusing my modeling onto Zone 1, but the best model and other analysis techniques used can be applied to the other zones as well.
+The data was recorded by Professors out of Abdelmalek Essaadi University, in Morocco. All of the features were recorded every 10 minutes from January 1st 2017 to December 30th 2017. There are 3 potential Y values, and 6 features. There are more than 52,000 data points due to the frequency of recording. For the purpose of simplicity I'll be focusing my modeling on Zone 1, but the best model and other analysis techniques used can be applied to the other zones as well.
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/eaa5cc64-0076-4aac-9149-c524fc50ce00)
 
