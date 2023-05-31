@@ -10,13 +10,15 @@ The data was recorded by Professors out of Abdelmalek Essaadi University, in Mor
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/eaa5cc64-0076-4aac-9149-c524fc50ce00)
 
-The above image is a correlation matrix. Temperature is the most correlated feature with zone power consumption.
+The above image is the mean, standard deviation, and other important statistics of the dataset.
 
 ## 3. Data Preperation
 
 The data was cleaned and prepared prior to releasing it. I adjusted a few column names and converted the data to a proper time-series for modeling. I normalized the features, and looked into the correlation of each feature to check for anything of concern.
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/4bac023d-9e94-455f-ae71-39bb158e5a0c)
+
+The above image is a correlation matrix. Temperature is the most correlated feature with zone power consumption.
 
 ## 4. Modeling
 
