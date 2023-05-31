@@ -34,7 +34,11 @@ In the image above you can see the SARIMA model's One-step ahead forecase is inc
 
 ## 5. Evaluation
 
-The SARIMA 
+The SARIMA model was the best performing model with an MSE of 965.16. The SARIMA model predictions closley followed the actual values from the data. In order to obtain more valuable information from this dataset, I believe introducing population / demographic statistics for the three zones would allow us to draw more interesting conclusions. Regardless, the following conclusions are for consideration of the city officials.
+
+1. Temperature is the most correlated feature. As temperature changes, power consumption follows. This makes logical sense because of air conditioning / heating. If your goal is to reduce power consumption, consider implementing limits on AC/Heat usage during moderate days to conserve energy for more extreme days. If your goal is to understand when power consumption is at its greatest, consider safeguards and more robust facilities that can handle increased loads in more extreme weather (i.e. summer and winter).
+2. Consider further research with demographics data. There are a lot of factors that will drive power consumption, housing and population for example. If this dataset could be compared with population data in each zone, more interesting conclusions could be drawn about the consumption and power requirements in each zone. Another interesting predictor would be if the zones are residential, industrial, or commercial.
+3. SARIMA Models worked the best and the SARIMA model I trained above provided an error of only 965.16. That is quite accurate and can be used for forecasting power consumption in the future.
 
 ## 6. Deployment
 
@@ -42,3 +46,12 @@ Deployment for this project is just generating the presentation and report.
 
 ### Refrences
 
+Dataset Citation:
+
+Salam, A., & El Hibaoui, A. (2018, December). Comparison of Machine Learning Algorithms for the Power Consumption Prediction:-Case Study of Tetouan cityâ€“. In 2018 6th International Renewable and Sustainable Energy Conference (IRSEC) (pp. 1-5). IEEE.â€
+
+Notebook resources:
+
+https://github.com/tatsath/fin-ml/blob/master/Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Regression-MasterTemplate.ipynb
+https://github.com/learn-co-curriculum/dsc-sarima-models-lab/blob/solution/index.ipynb
+https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregressive-integrated-moving-average-model-arima-c1005347b0d7
