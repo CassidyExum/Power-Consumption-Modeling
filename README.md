@@ -57,7 +57,9 @@ Salam, A., & El Hibaoui, A. (2018, December). Comparison of Machine Learning Alg
 Notebook resources:
 
 https://github.com/tatsath/fin-ml/blob/master/Chapter%205%20-%20Sup.%20Learning%20-%20Regression%20and%20Time%20Series%20models/Regression-MasterTemplate.ipynb
+
 https://github.com/learn-co-curriculum/dsc-sarima-models-lab/blob/solution/index.ipynb
+
 https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregressive-integrated-moving-average-model-arima-c1005347b0d7
 
 ## Repository Structure
