@@ -24,13 +24,13 @@ The above image is a correlation matrix. Temperature is the most correlated feat
 
 The task is to obtain a quantitative value, so I will be using regression models. I generated a list of 11 models that can quickly be trained without much effort, these models are not time-series specific and will be used as a baseline for comparison purposes. I then used 2 time-series specific models, SARIMA and ARIMA. The time series models should perform better than the baseline models. 
 
-The baseline models were trained using training and test splits, and cross validated to obtain a mean squared error. Mean Squared Error is a common evaluation metric for regression tasks, the lower the MSE the better. 
+The baseline models were trained using training and test splits, and cross validated to obtain a Mean Squared Error (MSE). MSE is a common evaluation metric for regression tasks, the lower the MSE the better. 
 
-![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/e3bac8db-928b-4d12-af05-aecd2a313093)
+<img width="917" alt="Screen Shot 2023-05-31 at 6 32 19 PM" src="https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/53670062-60b1-4c7e-af9a-28f81e3db86f">
 
-From the image above its clear that XGBoost Regressor, Random Forest Regressor, and Extra Trees Regressor are the top three models. I will use these for grid search later.
+From the image above its clear that the models farthest to the right (XGBoost Regressor, Random Forest Regressor, and Extra Trees Regressor), are the top three models. I will use these for grid search later.
 
-For the time-series specific models, the 10-minute, 52,000+ data points became too computing intensive. I decided to downsample to hourly and use the aggregated mean for the time-series models. I'm not too concerned about losing accuracy due to this as a large portion of the data points were likely redundant because of the frequency of recording. The hourly resample is much easier for the algorithms to use. The SARIMA model was able to achieve an MSE of 562 when predicting on just the final month of the dataset, and an MSE of 965.16 when predicting across the entire dataset. The ARIMA model performed better than the baseline models with an MSE of 1971, but that is still worse than the SARIMA model.
+For the time-series specific models, the 10-minute, 52,000+ data points became too computing intensive. I decided to downsample to hourly and use the aggregated mean for the time-series models. I'm not concerned about losing accuracy due to this, as a large portion of the data points were likely redundant because of the frequency of recording. The hourly resample is much easier for the algorithms to use. The SARIMA model was able to achieve an MSE of 562 when predicting on just the final month of the dataset, and an MSE of 965.16 when predicting across the entire dataset. The ARIMA model performed better than the baseline models with an MSE of 1971, but that is still worse than the SARIMA model.
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/487cdf50-95a4-47e6-963b-7228d2600e27)
 
