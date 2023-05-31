@@ -70,7 +70,7 @@ https://towardsdatascience.com/machine-learning-part-19-time-series-and-autoregr
     ├── Data
     │   └── Data.csv
     ├── .gitignore
-    ├── [Power Consumption Modeling.ipynb](https://github.com/CassidyExum/Power-Consumption-Modeling/blob/main/Power%20Consumption%20Modeling.ipynb)
-    ├── [Presentation.pdf](https://github.com/CassidyExum/Power-Consumption-Modeling/blob/main/Presentation.pdf)
+    ├── Power Consumption Modeling.ipynb
+    ├── Presentation.pdf
     ├── Notebook.pdf
-    └── [README.md](https://github.com/CassidyExum/Power-Consumption-Modeling/blob/main/README.md)
+    └── README.md
