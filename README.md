@@ -32,7 +32,7 @@ From the image above its clear that the models farthest to the right (XGBoost Re
 
 For the time-series specific models, the 10-minute, 52,000+ data points became too computing intensive. I decided to downsample to hourly and use the aggregated mean for the time-series models. I'm not concerned about losing accuracy due to this, as a large portion of the data points were likely redundant because of the frequency of recording. The hourly resample is much easier for the algorithms to use. The SARIMA model was able to achieve an MSE of 562 when predicting on just the final month of the dataset, and an MSE of 965.16 when predicting across the entire dataset. The ARIMA model performed better than the baseline models with an MSE of 1971, but that is still worse than the SARIMA model.
 
-![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/487cdf50-95a4-47e6-963b-7228d2600e27)
+<img width="906" alt="Screen Shot 2023-06-05 at 5 46 53 PM" src="https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/54f9f1f9-8376-46f9-b8d9-043a0ff765c8">
 
 In the image above you can see the SARIMA model's One-step ahead forecast is incredibly close to the actual values. This plot is only showing November and December, with November being the true values and December being both true and forecasted values.
 
