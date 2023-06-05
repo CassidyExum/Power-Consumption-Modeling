@@ -10,7 +10,7 @@ The data was recorded by Professors out of Abdelmalek Essaadi University, in Mor
 
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/eaa5cc64-0076-4aac-9149-c524fc50ce00)
 
-The above image is the mean, standard deviation, and other important statistics of the dataset.
+The above image is the mean, standard deviation, and other important statistics of the dataset. With more than 54,000 rows of data, learners should be able to produce decent results, but it may be time consuming. Prior to any modeling I hypothesized that temperature would be important, it ranges from 3.2 degrees C (37.76 degrees F) to 40 degrees C (104.018 degrees F) meaning it's quite hot there and AC could be the driving factor. The humidity is another feature that is generally high (average of 68%).
 
 ## 3. Data Preparation
 
