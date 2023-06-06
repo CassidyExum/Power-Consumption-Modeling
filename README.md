@@ -8,6 +8,8 @@ Due to climate change, increased energy demands, and the need for renewable ener
 
 The data was recorded by Professors out of Abdelmalek Essaadi University, in Morocco. All of the features were recorded every 10 minutes from January 1st 2017 to December 30th 2017. There are 3 potential Y values, and 6 features. There are more than 52,000 data points due to the frequency of recording. For the purpose of simplicity I'll be focusing my modeling on Zone 1, but the best model and other analysis techniques used can be applied to the other zones as well.
 
+Here is a [link](https://archive.ics.uci.edu/ml/datasets/Power+consumption+of+Tetouan+city) to the data set.
+
 ![image](https://github.com/CassidyExum/Power-Consumption-Modeling/assets/104473048/eaa5cc64-0076-4aac-9149-c524fc50ce00)
 
 The above image is the mean, standard deviation, and other important statistics of the dataset. With more than 54,000 rows of data, learners should be able to produce decent results, but it may be time consuming. Prior to any modeling I hypothesized that temperature would be important, it ranges from 3.2 degrees C (37.76 degrees F) to 40 degrees C (104.018 degrees F) meaning it's quite hot there and AC could be the driving factor. The humidity is another feature that is generally high (average of 68%).
